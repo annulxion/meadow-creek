@@ -54,6 +54,18 @@ module.exports = {
     'gatsby-plugin-typescript',
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Meadow Creek PBC`,
+        short_name: `MC`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`,
     'gatsby-transformer-yaml',
     'gatsby-plugin-sass',
     'gatsby-plugin-feed',
@@ -66,7 +78,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        measurementId: 'G-774EGY9PX4',
+        trackingId: 'UA-165104767-1',
         // Puts tracking script in the head instead of the body
         head: true,
         // IP anonymization for GDPR compliance
