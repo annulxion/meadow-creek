@@ -114,3 +114,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 .vscode
+
+#typescript
+!react-reftagger.js
+!react-reftagger.d.ts
