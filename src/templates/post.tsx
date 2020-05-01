@@ -6,7 +6,7 @@ import * as React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { Helmet } from 'react-helmet';
-import { RefTagger } from 'react-reftagger';
+import { RefTagger } from 'react-reftagger-psalm';
 
 import AuthorCard from '../components/AuthorCard';
 import Footer from '../components/Footer';

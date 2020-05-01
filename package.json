@@ -60,6 +60,7 @@
     "react-emotion": "10.0.0",
     "react-helmet": "5.2.1",
     "react-reftagger": "^1.0.0",
+    "react-reftagger-psalm": "^1.0.1",
     "rehype-react": "4.0.1"
   },
   "devDependencies": {
