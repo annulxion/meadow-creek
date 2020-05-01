@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
          <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Meadow Creek Primitive Baptist Church in Locust, NC' },
+              { name: 'keywords', content: 'meadow creek, primitive baptist, baptist, church, locust, nc, christian, faith' },
             ]}
           >
             <html lang="en" />

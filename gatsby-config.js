@@ -57,8 +57,8 @@ module.exports = {
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {
-    //     name: `Meadow Creek PBC`,
-    //     short_name: `MC`,
+    //     name: `Meadow Creek Primitive Baptist Church`,
+    //     short_name: `MCPBC`,
     //     start_url: `/`,
     //     background_color: `#fff`,
     //     theme_color: `#fff`,

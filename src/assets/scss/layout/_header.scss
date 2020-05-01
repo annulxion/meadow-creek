@@ -264,6 +264,10 @@
             border-top: 0;
           }
 
+          button {
+            display: inline-block;
+          }
+
           a {
             height: 3rem;
             line-height: 3rem;
@@ -280,4 +284,10 @@
       }
     }
   }
+
+  // @include breakpoint(xxsmall) {
+  //   nav ul li button {
+  //     display: inline-block;
+  //   }
+  // }
 }
