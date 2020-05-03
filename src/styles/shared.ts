@@ -38,7 +38,7 @@ export const SiteDescription = styled.h2`
   opacity: 0.8;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
       'Open Sans', 'Helvetica Neue', sans-serif;
-  color: black;
+  color: white;
   
 `;
 
@@ -72,7 +72,7 @@ export const SocialLink = css`
 
   svg {
     height: 1.8rem;
-    fill: yellow;
+    fill: white;
   }
 `;
 
@@ -80,8 +80,8 @@ export const SiteHeader = css`
   position: relative;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #e6f23a;
-  /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
+  color: white;
+  background: color(var(--darkgrey) l(-5%)) no-repeat center center;
   background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
   background-size: cover;
 `;
@@ -95,6 +95,7 @@ export const SiteHeaderContent = styled.div`
   min-height: 200px;
   max-height: 450px;
   text-align: center;
+  background-image: radial-gradient(rgba(0,0,0,0.45) 15%, rgba(0,0,0,0.0) 45%);
 `;
 
 export const SiteHeaderStyles = css`
@@ -104,7 +105,7 @@ export const SiteHeaderStyles = css`
   right: 0;
   bottom: auto;
   left: 0;
-  z-index: 10;
+  //z-index: 10;
   display: block;
   height: 80px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
@@ -116,7 +117,7 @@ export const SiteHeaderStyles = css`
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 10;
+    //z-index: 2;
     display: block;
     background: rgba(0, 0, 0, 0.18);
   }
@@ -128,7 +129,7 @@ export const SiteHeaderStyles = css`
     right: 0;
     bottom: auto;
     left: 0;
-    z-index: 10;
+    //z-index: 10;
     display: block;
     height: 80px;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));

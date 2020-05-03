@@ -8,7 +8,7 @@ export const colors = {
   midgrey: '#738a94',
   lightgrey: '#c5d2d9',
   whitegrey: '#e5eff5',
-  //darkgrey: '#fff',
+  darkgrey: 'grey',
   pink: '#fa3a57',
   brown: '#a3821a',
 };

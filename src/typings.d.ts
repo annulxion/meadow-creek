@@ -1,3 +1,4 @@
+
 interface CSSModule {
   [className: string]: string;
 }
@@ -25,3 +26,10 @@ declare module 'rehype-react' {
   }
   export default RehypeReact;
 }
+
+// declare module 'react-reftagger-psalm' {
+//   interface settings {
+
+//   }
+//   export = RefTagger;
+// }

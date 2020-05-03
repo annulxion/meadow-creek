@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.14",
+    "@emotion/css": "^10.0.27",
     "@emotion/styled": "10.0.14",
     "@emotion/styled-base": "10.0.14",
     "classnames": "2.2.6",
@@ -59,9 +60,10 @@
     "react-dom": "16.8.6",
     "react-emotion": "10.0.0",
     "react-helmet": "5.2.1",
-    "react-reftagger": "^1.0.0",
+    "react-loadable": "^5.5.0",
     "react-reftagger-psalm": "^1.0.1",
-    "rehype-react": "4.0.1"
+    "rehype-react": "4.0.1",
+    "sharp": "^0.25.2"
   },
   "devDependencies": {
     "@types/classnames": "2.2.9",
@@ -80,9 +82,9 @@
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-react": "7.14.3",
     "eslint-plugin-react-hooks": "1.6.1",
+    "prettier": "^1.19.1",
     "rimraf": "2.6.3",
-    "typescript": "3.5.3",
-    "prettier": "^1.19.1"
+    "typescript": "3.5.3"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -90,5 +92,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/annulxion/meadow-creek"
+  },
+  "resolutions": {
+    "sharp": "^0.25.1"
   }
 }
